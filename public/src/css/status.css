@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400&display=swap');
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  
+}
+.header-section{
+  background-color: #4285f4;
+  height: 100px;
+  width:100%;
+  box-shadow: 0px 2px 5px rgb(180, 180, 180);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.header-section h1{
+  font-size: 30px;
+   font-family: 'Noto Sans JP', sans-serif;
+   letter-spacing: .30px;
+   line-height: 20px;
+   color:white;
+}@media (max-width:500px){
+  .header-section h1{
+  font-size: 20px;
+ 
+}
+.header-section{
+  height: 70px;
+ 
+}
+}
+.main-section{
+  padding: 20px;
+  margin:0px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.main-section .status-card{
+
+  width:350px;
+  height: 300px;
+  box-shadow: 2px 2px 8px rgb(228, 228, 228),
+              -2px -2px 8px rgb(214, 214, 214);
+  border-radius: 10px;
+  transition: transform  linear ;
+  margin-bottom: 20px;
+ 
+}
+
+.status-card-cpu .heading, 
+.status-card-memory .heading, 
+.status-card-display .heading,
+.status-card-storage .heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4285f4;
+  width:100%;
+  height:40px;
+  color:white;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 1px 3px rgb(143, 143, 143);
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size:12px;
+  letter-spacing: .5px;
+  
+}
+ .status-card-cpu .info-section-cpu{
+  
+  padding:5px 20px 0px 20px;
+  height: 100%;
+  font-family: 'Assistant', sans-serif;
+  color:rgb(99, 99, 99);
+}
+ .status-card-cpu .info-section-cpu h2{
+ 
+  font-size: 19px;
+  margin:0px 0px 20px 0px;
+  letter-spacing: 1px;
+
+}
+ .status-card-cpu .info-section-cpu h3{
+
+  font-size: 18px;
+  margin:0px 0px 10px 0px;
+
+}
+ .status-card-cpu .info-section-cpu ul{
+
+  font-size: 17px;
+  list-style: none;
+  padding:0px 8px 0px 8px;
+
+
+}
+.status-card-cpu .info-section-cpu ul li{
+
+  display: inline-block;
+  font-weight: normal;
+  margin:0px 3px 0px 3px;
+
+}
+ .status-card-memory .info-section-memory {
+  font-family: 'Assistant', sans-serif;
+  color:rgb(99, 99, 99);
+  padding:5px 20px 0px 20px;
+  
+}
+.status-card-memory .info-section-memory h2{
+
+  font-weight: 400;
+  margin:0px 0px 10px 0px;
+}
+
+.status-card-display .info-section-display{
+  font-family: 'Assistant', sans-serif;
+  padding:5px 20px 0px 20px;
+}
+.status-card-display .info-section-display .displays{
+  
+  margin-bottom:20px;
+}
+.status-card-display .info-section-display .displays h1{
+  font-weight: 400;
+  font-size:20px;
+}
+.status-card-display .info-section-display .displays h2{
+  font-weight: 300;
+  font-size:18px;
+  margin-left:20px;
+}
+
+.status-card-storage .info-section-storage {
+  font-family: 'Assistant', sans-serif;
+  padding:5px 20px 0px 20px;
+}
+.status-card-storage .info-section-storage .storages{
+  margin-bottom:5px;
+}
+
+.status-card-storage .info-section-storage .storages h1{
+  font-weight: 500;
+  font-size:20px;
+}
+.status-card-storage .info-section-storage .storages h2{
+    font-weight: 600;
+  font-size:16px;
+  margin-left:20px
+}
+
+.main-section .status-card:hover{
+  transform: scale(1.02);
+}
+/* #dot{
+  display: inline-block;
+  margin:5px 0px 0px 20px;
+  border:2px solid rgb(0, 253, 0);
+  border-radius: 100%;
+  height: 8px;
+  width: 8px;
+
+  background-color:rgb(0, 253, 0) ;
+ 
+} */
