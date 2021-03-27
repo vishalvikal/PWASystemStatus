@@ -1,5 +1,6 @@
-# Progressive Web Apps - Complete Guide
-This source code is part of Maximilian Schwarzmüller's "Progressive Web Apps - Complete Guide" course on udemy.com.
+# Progressive Web Apps System Status
+This source code is written by vishal vikal. It is a simple Progressive Web App created for GSoC 2021. It
+Show system status.
 
 # How to Use
 You need [Node.js](https://nodejs.org) installed on your machine. Simply download the installer from [nodejs.org](https://nodejs.org) and go through the installation steps.
