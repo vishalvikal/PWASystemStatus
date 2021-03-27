@@ -7,4 +7,6 @@ You need [Node.js](https://nodejs.org) installed on your machine. Simply downloa
 
 Once Node.js is installed, open your command prompt or terminal and **navigate into this project folder**. There, run `npm install` to install all required dependencies.
 
+Before using this make sure you have installed chrome system status extension. You can find this in this repository https://github.com/vishalvikal/chromeSystemStatusExtension.git. Because, Withou this it is not able to show the system status.
+
 Finally, run `npm start` to start the development server and visit [localhost:8080](http://localhost:8080) to see the running application.
